@@ -1,0 +1,178 @@
+  @charset "UTF-8";
+  #body {
+      background-color: #f9f9f9;
+  }
+  
+  .top {
+      background-image: url(../img/top.jpg);
+      background-size: cover;
+      height: 500px;
+  }
+  
+  .skills-wrapper {
+      display: flex;
+  }
+  
+  .contact-btn {
+      border: 3px solid #cd5954;
+      border-radius: 8px;
+      padding: 2px 8px;
+      color: #cd5954;
+  }
+  /* first view */
+  
+  .top {
+      background-image: url(../img/firstview.jpg);
+  }
+  /* bar */
+  
+  .bar {
+      max-width: 600px;
+      width: 100%;
+      margin: 1em;
+      color: white;
+      padding: 0.25em;
+      width: 0;
+      background: #0091EA;
+  }
+  
+  .bar.inview {
+      animation: bar-animation 1 2s forwards;
+  }
+  
+  .bar1 {
+      max-width: 80%;
+  }
+  
+  .bar2 {
+      max-width: 70%;
+  }
+  
+  .bar3 {
+      max-width: 70%;
+  }
+  
+  .bar4 {
+      max-width: 40%;
+  }
+  
+  .bar5 {
+      max-width: 40%;
+  }
+  
+  .bar6 {
+      max-width: 40%;
+  }
+  
+  .bar7 {
+      max-width: 20%;
+  }
+  
+  @keyframes bar-animation {
+      0% {
+          width: 0px;
+      }
+      100% {
+          width: 100%;
+      }
+  }
+  /* .icons {
+      display: flex;
+  } */
+  
+  .icon1 {
+      width: 5%;
+      height: 5%;
+  }
+  /* .icon2 {
+      width: 6%;
+  } */
+  /* work */
+  
+  .work-image {
+      width: 100%;
+      height: 80%;
+  }
+  
+  .work-title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .work-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  /* contact */
+  
+  form {
+      max-width: 680px;
+      width: calc(100% - 10px);
+      margin: 0 auto;
+      font-size: 20px;
+  }
+  
+  .item {
+      display: flex;
+      align-items: center;
+      padding-top: 20px;
+  }
+  
+  .sex {
+      padding-top: 20px;
+  }
+  /* .label {
+      width: 180px;
+      padding-left: 10px;
+      border-left: solid 5px #a0522d;
+  }
+   */
+  
+  .label-required {
+      color: #ff6347;
+      font-weight: bold;
+      font-size: 18px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+      border: solid 1px #aaa;
+      border-radius: 5px;
+      padding: 10px;
+      font-size: 15px;
+  }
+  
+  select {
+      appearance: none;
+      cursor: pointer;
+      border: solid 1px #aaa;
+      border-radius: 5px;
+      padding: 10px;
+      font-size: 15px;
+  }
+  
+  textarea {
+      border: solid 1px #aaa;
+      border-radius: 5px;
+      padding: 10px;
+      height: 160px;
+      width: 480px;
+      font-size: 15px;
+  }
+  
+  .btn {
+      text-align: center;
+      margin: 25px auto;
+  }
+  
+  button {
+      background: #ff6347;
+      border-radius: 7px;
+      cursor: pointer;
+      color: white;
+      font-size: 17px;
+      font-weight: bold;
+      padding: 10px 25px;
+  }

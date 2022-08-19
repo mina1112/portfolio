@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>さぼてんのポートフォリオ | Web制作</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body id="body`">
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand font-weight-bold h1" href="#">MINA's  PORTFOLIO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto px-4">
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#skill">SKILL</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#work">WORKS</a>
+                    </li>
+                </ul>
+                <a href="#contact" class="contact-btn my-2 my-sm-0">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- first-view -->
+    <section class="top">
+        <div class="container">
+            <p class="top-title text-right">
+                みなの<br> ポートフォリオ
+            </p>
+        </div>
+    </section>
+    <!-- about -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center">ABOUT</h2>
+            <p class="section-sub-title text-center font-weight-bold">私について</p>
+            <div class="row">
+                <div class="col-md-9 mb-5">
+                    <p>
+                        【略歴】
+                        <br> 2020年に大学入学後、HTMLやCSS、WordPressなどの学習を始めました。
+                        <br>現在愛知県でWebサイト制作をしています。
+                    </p>
+                    <p>
+                        【趣味】
+                        <br> 食べることと音楽が好きです。
+                        <br>サークルでベースを弾いたり、webアプリを開発したりしています。
+                        <br>現在はコーディングを勉強しつつ、Webサイトを制作しています！
+                    </p>
+                    <div class="icons">
+                        <a class="icon1" href="https://github.com/"><img class="icon1" src="./img/github.png" alt="github"></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img src="./img/about.png" class="w-100" alt="about">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skill -->
+    <section id="skill" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center">SKILL</h2>
+            <p class="section-sub-title text-center font-weight-bold">私ができること</p>
+            <div class="row">
+                <div class="col-6 frontend-skill">
+                    <h3 class="skill-title">FRONTEND SKILLS</h3>
+                    <div id="bar-number" class="graph">
+                        <div class="bar-title">HTML5/CSS3/JavaScript</div>
+                        <div class="bar bar1"><span class="count-up count-size" data-number="80">0</span>%</div>
+                        <div class="bar-title">WordPress</div>
+                        <div class="bar bar2"><span class="count-up count-size" data-number="70">0</span>%</div>
+                        <div class="bar-title">Vue.js/Vuetify2</div>
+                        <div class="bar bar3"><span class="count-up count-size" data-number="70">0</span>%</div>
+                        <div class="bar-title">Figma</div>
+                        <div class="bar bar4"><span class="count-up count-size" data-number="40">0</span>%</div>
+                    </div>
+                </div>
+                <div class="col-6 backend-skill">
+                    <h3 class="skill-title">BACKEND SKILLS</h3>
+                    <div id="bar-number" class="graph">
+                        <div class="bar-title">PHP</div>
+                        <div class="bar bar5"><span class="count-up count-size" data-number="40">0</span>%</div>
+                        <div class="bar-title">Node.js</div>
+                        <div class="bar bar6"><span class="count-up count-size" data-number="40">0</span>%</div>
+                        <div class="bar-title">Docker</div>
+                        <div class="bar bar7"><span class="count-up count-size" data-number="30">0</span>%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- work -->
+    <section id="work" class="py-5">
+        <div>
+            <h2 class="section-title text-center">WORKS</h2>
+            <p class="section-sub-title text-center font-weight-bold">作品</p>
+            <div class="work-wrapper">
+                <div class="work work1">
+                    <img class="work-image" src="./img/work1.png" alt="デイトラコース紹介">
+                    <p class="work-title">デイトラ研修課題　コース紹介</p>
+                </div>
+                <div class="work work2">
+                    <img class="work-image" src="./img/work1.png" alt="デイトラコース紹介">
+                    <p class="work-title">デイトラ研修課題　コース紹介</p>
+                </div>
+                <div class="work work3">
+                    <img class="work-image" src="./img/work1.png" alt="デイトラコース紹介">
+                    <p class="work-title">デイトラ研修課題　コース紹介</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center">CONTACT</h2>
+            <p class="section-sub-title text-center font-weight-bold">お問い合わせ</p>
+            <form action="./confirm.php" method="post">
+                <div class="form-item">
+                    <label class="label" for="name">名前<span class="label-required">(必須)</span>：</label>
+                    <input id="name" type="text" name="yourname">
+                </div>
+                <div class="form-item">
+                    <label class="label" for="email">メールアドレス<span class="label-required">(必須)</span>：</label>
+                    <input id="email" type="email" name="email" placeholder="example@gmail.com">
+                </div>
+                <div class="form-item">
+                    <label class="label" for="tel">電話番号：</label>
+                    <input id="tel" type="text" name="tel" placeholder="000-0000-0000">
+                </div>
+                <div class="contact">
+                    <p class="label">ご希望の連絡先</p>
+                    <input id="mail" type="radio" name="contact" value="メール"><label for="mail">メール</label>
+                    <input id="call" type="radio" name="contact" value="電話"><label for="call">電話</label>
+                </div>
+                <div class="form-item">
+                    <label class="label" for="textarea-item">お問い合わせ内容<span class="label-required">(必須)</span>：</label>
+                    <textarea id="textarea-item"></textarea>
+                </div>
+
+                <div class="btn form-btn">
+                    <button type="submit">送信</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
